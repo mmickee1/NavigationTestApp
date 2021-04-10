@@ -33,10 +33,14 @@ class FirstFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         binding.buttonFirst.setOnClickListener {
-            findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
+            if (findNavController().currentDestination?.id == R.id.FirstFragment) {
+                findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
+            }
         }
         binding.buttonOpenInfoDialog.setOnClickListener {
-            findNavController().navigate(R.id.action_FirstFragment_to_informDialog)
+            if (findNavController().currentDestination?.id == R.id.FirstFragment) {
+                findNavController().navigate(R.id.action_FirstFragment_to_informDialog)
+            }
         }
     }
 
