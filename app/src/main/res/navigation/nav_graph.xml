@@ -31,5 +31,10 @@
     <dialog
         android:id="@+id/informDialog"
         android:name="com.example.navigationtestapp.InformDialog"
-        android:label="InformDialog" />
+        android:label="InformDialog" >
+        <argument
+            android:name="testStringValueNavArgs"
+            app:argType="string"
+            android:defaultValue="Very informational text!" />
+    </dialog>
 </navigation>

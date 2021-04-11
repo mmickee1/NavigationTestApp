@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.NavOptions
 import androidx.navigation.fragment.findNavController
 import com.example.navigationtestapp.databinding.FragmentFirstBinding
 
@@ -39,7 +40,7 @@ class FirstFragment : Fragment() {
         }
         binding.buttonOpenInfoDialog.setOnClickListener {
             if (findNavController().currentDestination?.id == R.id.FirstFragment) {
-                findNavController().navigate(R.id.action_FirstFragment_to_informDialog)
+                findNavController().navigate(FirstFragmentDirections.actionFirstFragmentToInformDialog("Passed NavArgs from FirstFragment successfully!"))
             }
         }
     }
