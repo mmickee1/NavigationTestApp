@@ -14,4 +14,8 @@
     <string name="static_shortcut_label_short">Show Dialog</string>
     <string name="static_shortcut_label_long">Show detailed information dialog</string>
     <string name="static_shortcut_disabled_message">dialog disabled</string>
+    <string name="deepLinkNotificationTitle">Deep Link</string>
+    <string name="show_dialog_info">Show info dialog</string>
+    <string name="defaultChannel">Navigation App Channel</string>
+    <string name="notificationDescription">Notifications from Navigation App</string>
 </resources>
