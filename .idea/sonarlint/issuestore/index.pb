@@ -17,3 +17,5 @@ p
 @app/src/main/java/com/example/navigationtestapp/FirstFragment.kt,9\6\96d7894983c2201a5a663e30ca5873ff08c2eee2
 o
 ?app/src/main/java/com/example/navigationtestapp/InformDialog.kt,c\0\c0845f6a95c19a2fefe93cdeb95b2a14c4e33fd4
+S
+#app/src/main/res/values/strings.xml,d\2\d2281fbb3027de2722081a53408dd77628bf080e

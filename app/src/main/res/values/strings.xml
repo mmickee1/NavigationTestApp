@@ -11,4 +11,7 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="info">more info</string>
     <string name="no_arg_passed">No argument passed :(</string>
+    <string name="static_shortcut_label_short">Show Dialog</string>
+    <string name="static_shortcut_label_long">Show detailed information dialog</string>
+    <string name="static_shortcut_disabled_message">dialog disabled</string>
 </resources>
